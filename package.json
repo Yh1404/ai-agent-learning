@@ -1,0 +1,30 @@
+{
+  "name": "ai-agent-learning",
+  "version": "1.0.0",
+  "description": "ai学习笔记",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx week1/day1/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "haoyang",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "inquirer": "^14.2.2",
+    "openai": "^7.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.0",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}
