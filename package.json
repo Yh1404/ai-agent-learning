@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "tsx week1/day1/index.ts",
+    "start-tool": "tsx week1/day2/index.ts",
     "typecheck": "tsc --noEmit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

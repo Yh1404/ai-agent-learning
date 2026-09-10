@@ -64,6 +64,7 @@ async function chat(model: string) {
       process.stdout.write(chalk.green('AI: '));
       for await (const chunk of stream) {
         const delta = chunk.choices[0]?.delta?.content ?? '';
+
         if (delta) {
           answer += delta;
           process.stdout.write(delta);
